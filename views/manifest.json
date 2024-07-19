@@ -1,0 +1,12 @@
+{
+    "name": "Example app",
+    "short_description": "Exaple app description",
+    "description": "This app do nothing. Just show how to create a Pipefy App",
+    "icon": "./logo.png",
+    "author": "Jonathan Hermam",
+    "init_url": "./",
+    "screenshots": [],
+    "features": [
+      "pipe-view"
+    ]
+  }

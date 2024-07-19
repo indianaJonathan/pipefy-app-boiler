@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Pipefy Apps Client.js -->
+    <script type='text/javascript' src="https://d1ukdhoxof1oxs.cloudfront.net/pipefy-client.js"></script>
+  </head>
+  <body style="font-family: Inter, sans-serif">
+    <script>
+        PipefyApp.initCall({
+            'pipe-view': function(p, pipe) {
+                return (
+                    {
+                        text: 'Example app',
+                        url: './view.html',
+                        hide_create_button: false,
+                    }
+                )
+            },
+        });
+    </script>
+  </body>
+</html>
